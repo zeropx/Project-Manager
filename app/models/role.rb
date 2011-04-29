@@ -9,4 +9,7 @@ class Role < ActiveRecord::Base
   validates :status_id,   :presence => true
   validates :title,       :presence => true
       
+  attr_protected :project_id  
+    
+      
 end
