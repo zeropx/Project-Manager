@@ -53,7 +53,7 @@ namespace :app do
     [
       {:title => "Grand Master", :person => Person.find(1), :project => Project.find(1)},
       {:title => "Anti Worker", :person => Person.find(2), :project => Project.find(2)},
-      {:title => "Goober", :person => Person.find(3), :project => Project.find(3)},
+      {:title => "Goober", :person => Person.find(3), :project => Project.find(2)},
     ].each do |attributes|
       Role.create(attributes)
     end
