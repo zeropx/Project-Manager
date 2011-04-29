@@ -8,4 +8,18 @@ module ApplicationHelper
             options)
   end
   
+  def dom_class_first_last(object, array)
+    if (object == array.first)
+      return "first"
+    end
+    if (object == array.last)
+      return "last"
+    end
+    nil
+  end
+  
+  def dom_class_zebra(array)
+        
+  end
+  
 end

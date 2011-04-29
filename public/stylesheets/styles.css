@@ -269,3 +269,8 @@ textarea:focus {
 .project .role .role-title { color: #aaaaaa; }
 .project .role .status-title { text-decoration: italic; }
 .project .role .time { color: #666666; }
+.notice, .alert {
+  padding: 1em;
+  margin: 1em;
+  font-size: 1.5em;
+}
