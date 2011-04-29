@@ -49,7 +49,7 @@ namespace :app do
       Status.find_or_create_by_title(attributes)
     end
     
-    # Associations
+    # Associate roles to People and Projects
     [
       {:title => "Grand Master", :person => Person.find(1), :project => Project.find(1)},
       {:title => "Anti Worker", :person => Person.find(2), :project => Project.find(2)},
