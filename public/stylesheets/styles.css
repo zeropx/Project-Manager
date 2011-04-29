@@ -59,3 +59,99 @@ caption {background:#eee;}
 .bottom {margin-bottom:0;padding-bottom:0;}
 
 /* STRUCTURE GRID */
+
+
+body {
+    margin: 2em 5em;
+    background-color: #EEE;
+}
+
+
+
+html.js fieldset.collapsed { height: 2em; }
+input[type="button"], input[type="submit"] {
+  background: #111111;
+  background: -moz-linear-gradient(top, rgba(50, 50, 50, 0.9) 0%, rgba(30, 30, 30, 0.9) 50%, rgba(20, 20, 20, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, rgba(50, 50, 50, 0.9)), color-stop(0.5, rgba(30, 30, 30, 0.9)), color-stop(0.5, rgba(20, 20, 20, 0.9)), color-stop(1, rgba(0, 0, 0, 0.9)));
+  border: 0;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  -webkit-box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  box-shadow: inset 1px 1px 1px 0px rgba(135, 135, 135, 0.1), inset -1px -1px 1px 0px rgba(135, 135, 135, 0.1);
+  color: #ffffff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+  line-height: 1;
+  padding: 12px 0;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.8), 0 1px 1px rgba(255, 255, 255, 0.3);
+  width: 150px;
+}
+input[type="button"]:hover {
+  background: #222222;
+  background: -moz-linear-gradient(top, rgba(70, 70, 70, 0.9) 0%, rgba(50, 50, 50, 0.9) 50%, rgba(40, 40, 40, 0.9) 50%, rgba(20, 20, 20, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, rgba(70, 70, 70, 0.9)), color-stop(0.5, rgba(50, 50, 50, 0.9)), color-stop(0.5, rgba(40, 40, 40, 0.9)), color-stop(1, rgba(20, 20, 20, 0.9)));
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background: #222222;
+  background: -moz-linear-gradient(top, rgba(70, 70, 70, 0.9) 0%, rgba(50, 50, 50, 0.9) 50%, rgba(40, 40, 40, 0.9) 50%, rgba(20, 20, 20, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, rgba(70, 70, 70, 0.9)), color-stop(0.5, rgba(50, 50, 50, 0.9)), color-stop(0.5, rgba(40, 40, 40, 0.9)), color-stop(1, rgba(20, 20, 20, 0.9)));
+  cursor: pointer;
+}
+input[type="button"]:active {
+  background: #000000;
+  background: -moz-linear-gradient(top, rgba(30, 30, 30, 0.9) 0%, rgba(20, 20, 20, 0.9) 50%, rgba(10, 10, 10, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, rgba(30, 30, 30, 0.9)), color-stop(0.5, rgba(20, 20, 20, 0.9)), color-stop(0.5, rgba(10, 10, 10, 0.9)), color-stop(1, rgba(0, 0, 0, 0.9)));
+}
+input[type="submit"]:active {
+  background: #000000;
+  background: -moz-linear-gradient(top, rgba(30, 30, 30, 0.9) 0%, rgba(20, 20, 20, 0.9) 50%, rgba(10, 10, 10, 0.9) 50%, rgba(0, 0, 0, 0.9) 100%);
+  background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0, rgba(30, 30, 30, 0.9)), color-stop(0.5, rgba(20, 20, 20, 0.9)), color-stop(0.5, rgba(10, 10, 10, 0.9)), color-stop(1, rgba(0, 0, 0, 0.9)));
+}
+input, textarea, input.form-text {
+  padding: 9px;
+  border: solid 1px #e5e5e5;
+  outline: 0;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));
+  background: -moz-linear-gradient(top, #ffffff, #eeeeee 1px, #ffffff 25px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+textarea {
+  height: 150px;
+  line-height: 150%;
+}
+input:hover {
+  border-color: #c9c9c9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+textarea:hover {
+  border-color: #c9c9c9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+input:focus {
+  border-color: #c9c9c9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+textarea:focus {
+  border-color: #c9c9c9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+.form label {
+  margin-left: 10px;
+  color: #999999;
+}
+
+.icon 
+{
+    opacity: .5;
+}
+.icon:hover
+{
+    opacity: 1;
+}
